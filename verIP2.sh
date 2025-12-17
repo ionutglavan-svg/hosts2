@@ -10,7 +10,7 @@ do
         k=$((k+1))
         if [ "$k" -eq 2  -a "$2" != "$ip2"  ]
         then
-            echo "Bogus IP for $1 in /etc/hosts! *\n" 
+            echo "Bogus IP for $1 in /etc/hosts!" 
                 
         fi
     fi
