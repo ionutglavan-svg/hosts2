@@ -22,3 +22,4 @@ nslookup "$nume_host" "$dns" | while read stanga dreapta
             k=1
         fi
         done
+echo "Alex na"
